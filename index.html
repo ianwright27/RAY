@@ -1,15 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample HTML Page</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+
+<!--
     <div class="modal" id="welcomeModal"> 
         <h1>Welcome to R.A.Y</h1>
         <p>The R.A.Y project is an advanced interface powered by artificial intelligence features for daily tasks.</p>
     </div>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>RAY v0.01</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/base.css">
+</head>
+<body>
+
+  <!-- Camera Feed -->
+  <video id="camera" autoplay playsinline></video>
+
+  <!-- HUD Overlay -->
+  <canvas id="hud"></canvas>
+
+  <script type="module" src="main.js"></script>
 </body>
 </html>
